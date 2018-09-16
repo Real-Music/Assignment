@@ -1,7 +1,5 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/contack/img2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: #111;
 }
 
 /* Article */
@@ -25,6 +23,7 @@ form input {
     border: none;
     margin: 20px 0;
     transition: all 300ms ease-in-out;
+    border: 1px solid #eee;
 }
 
 form input:nth-child(2) {
@@ -43,4 +42,5 @@ form textarea {
     border-radius: 4px;
     padding: 10px;
     font-size: 18px;
+    border: 1px solid #eee;
 }

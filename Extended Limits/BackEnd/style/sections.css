@@ -1,0 +1,36 @@
+/* main */
+/* Table */
+table {
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+table th {
+    font-size: 1.4rem;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+table tr {
+    height: 100px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+}
+
+table tr:hover,
+table tr:nth-child(even):hover {
+    transition: all 250ms ease-in-out;
+    background: #00481c96;
+}
+
+table tr:nth-child(even) {
+    background: var(--white);
+}
+
+table td {
+    padding: 1rem;
+}
+
+table td:first-child {
+    text-align: center;
+}
