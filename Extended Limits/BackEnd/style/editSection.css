@@ -1,0 +1,28 @@
+/* main */
+
+main div {
+    max-width: 800px;
+    min-width: 200px;
+    margin: 50px auto;
+}
+
+form input[type="text"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+form input[type="text"] {
+    margin-bottom: 40px;
+}
+
+label {
+    font-size: 1.4rem;
+}
+
+button {
+    padding: 5px 7px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
